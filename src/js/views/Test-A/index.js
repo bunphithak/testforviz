@@ -1,0 +1,1 @@
+export { default as TestA } from './test-A-List'

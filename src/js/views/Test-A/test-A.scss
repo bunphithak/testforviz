@@ -1,0 +1,30 @@
+.test_A {
+    border-bottom-left-radius: 25px;
+   border-bottom-right-radius: 25px;
+   background: #73AD21;
+   padding: 20px; 
+   width: 160px;
+   height: 130px; 
+margin-left: 4em;  
+}
+.test_A:before{
+    height: 30px;
+    width: 30px;
+    content: "";
+    position: absolute;
+    border-top: 100px;
+    margin: -20px 0 0 94px;
+    border-radius: 100px;
+    border: 30px solid #73AD21;
+    padding: 23px;  
+}
+.test_A:after{
+    height: 0;
+    width: 25%;
+    content: "";
+    position: absolute;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top: 21px solid #73AD21;
+    margin: 112px 0 0 -142px;
+}
